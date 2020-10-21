@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorld {
     @GetMapping()
     public String helloWorld(){
-        return "Hello world!";
+        return "MS is up and running!";
     }
 }
